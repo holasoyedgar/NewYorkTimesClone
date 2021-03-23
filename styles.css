@@ -1,0 +1,94 @@
+.header {
+  align-items: center;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  display: flex;
+  padding-bottom: 4px;
+}
+
+.buttons-left {
+  justify-content: flex-start;
+}
+
+.lateral-menu-button {
+  background: none;
+  border: 0;
+  box-shadow: none;
+  margin-right: 8px;
+  padding: 8px 9px 9px 9px;
+}
+
+.lateral-menu-button:hover {
+  background-color: #f7f7f7;
+}
+
+.search-button {
+  background: none;
+  border: 0;
+  box-shadow: none;
+  padding: 8px 9px 9px 9px;
+}
+
+.search-button:hover {
+  background-color: #f7f7f7;
+}
+
+.category {
+  margin-left: 20px;
+}
+
+.category-link {
+  color: rgb(0, 0, 0);
+  font-family: 'Franklin';
+  font-size: 14.25px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.category-link:hover {
+  text-decoration: underline;
+}
+
+.nyt-logo {
+  margin-left: 29vw;
+  margin-right: auto;
+}
+
+.nyt-logo-img {
+  height: 26.48px;
+  width: 195px;
+}
+
+.buttons-right {
+  justify-content: flex-end;
+}
+
+.susbcribe-now-button {
+  background: none;
+  background-color: rgb(58, 108, 146);
+  border: 0;
+  border-radius: 3px;
+  box-shadow: none;
+  color: white;
+  cursor: pointer;
+  font-family: 'Franklin';
+  font-size: 11px;
+  font-weight: 700;
+  padding: 11px 12px 8px 12px;
+  text-transform: uppercase;
+}
+
+.log-in-button {
+  background: none;
+  background-color: rgb(58, 108, 146);
+  border: 0;
+  border-radius: 3px;
+  box-shadow: none;
+  color: white;
+  cursor: pointer;
+  font-family: 'Franklin';
+  font-size: 11px;
+  font-weight: 700;
+  padding: 11px 12px 8px 12px;
+  text-transform: uppercase;
+}
