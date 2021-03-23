@@ -38,7 +38,7 @@
 
 .category-link {
   color: rgb(0, 0, 0);
-  font-family: 'Franklin';
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
   font-size: 14.25px;
   font-weight: 700;
   text-decoration: none;
@@ -71,7 +71,7 @@
   box-shadow: none;
   color: white;
   cursor: pointer;
-  font-family: 'Franklin';
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
   font-size: 11px;
   font-weight: 700;
   padding: 11px 12px 8px 12px;
@@ -86,7 +86,7 @@
   box-shadow: none;
   color: white;
   cursor: pointer;
-  font-family: 'Franklin';
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
   font-size: 11px;
   font-weight: 700;
   padding: 11px 12px 8px 12px;
