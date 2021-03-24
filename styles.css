@@ -7,7 +7,7 @@
   padding-bottom: 4px;
   position: fixed;
   right: 10px;
-  top: 0px;
+  top: 0;
   width: 98vw;
   z-index: 100;
 }
@@ -71,7 +71,9 @@
   margin-right: 10px;
 }
 
-.susbcribe-now-button, .log-in-button, .read-comments-button {
+.susbcribe-now-button,
+.log-in-button,
+.read-comments-button {
   background: none;
   background-color: rgb(58, 108, 146);
   border: 0;
@@ -217,7 +219,7 @@ ul {
 
 .sign-up-text-sign-up {
   font-family: 'Franklin', Verdana, Tahoma, sans-serif;
-  font-style: normal;  
+  font-style: normal;
   font-weight: 700;
 }
 
@@ -274,7 +276,7 @@ ul {
 
 .infography {
   margin: 0 auto 20px;
-  max-width: 84%; 
+  max-width: 84%;
 }
 
 .infography-header {
@@ -289,7 +291,7 @@ ul {
 }
 
 .infography-description {
-  color:rgb(102, 102, 102);
+  color: rgb(102, 102, 102);
   font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -371,7 +373,7 @@ p {
   font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
   font-size: 14px;
   font-weight: 500;
-  margin: 5px 0px 5px 10px;
+  margin: 5px 0 5px 10px;
 }
 
 .article-image-container {
@@ -432,7 +434,7 @@ p {
 
 .category-title {
   font-family: 'Franklin', Verdana, Tahoma, sans-serif;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .nav-menu-bottom-item {
