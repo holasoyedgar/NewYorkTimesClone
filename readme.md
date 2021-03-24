@@ -4,9 +4,9 @@
 
 > In this project I'm cloning a New York Times articles with all their characteristics.
 
-![screenshot](./assets/Screenshot.png)
+![screenshot](./assets/Screenshot.PNG)
 
-Additional description about the project and its features.
+I'm using HTML and CSS, I've used some HTML tags like header, section, div, button, h1, among others, and I've used some CSS properties like margin, padding, width, height, position and so on.
 
 ## Built With
 
@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://holasoyedgar.github.io/NewYorkTimesClone/)
 
 
 
@@ -25,8 +25,8 @@ Additional description about the project and its features.
 
 👤 **Edgar Rincon**
 
-- GitHub: [@githubhandle](https://github.com/holasoyedgar)
-- Twitter: [@twitterhandle](https://twitter.com/holasoyedgar1)
+- GitHub: [@holasoyedgar](https://github.com/holasoyedgar)
+- Twitter: [@holasoyedgar1](https://twitter.com/holasoyedgar1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/edgar-rincon-serrano-3100481a0/)
 
 ## 🤝 Contributing
