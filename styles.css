@@ -1,8 +1,15 @@
-.header {
+.nav-menu {
   align-items: center;
+  background-color: #fff;
   border-bottom: 1px solid rgb(226, 226, 226);
   display: flex;
+  left: 10px;
   padding-bottom: 4px;
+  position: fixed;
+  right: 10px;
+  top: 0px;
+  width: 98vw;
+  z-index: 100;
 }
 
 .buttons-left {
@@ -50,7 +57,7 @@
 }
 
 .nyt-logo {
-  margin-left: 29vw;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -61,9 +68,10 @@
 
 .buttons-right {
   justify-content: flex-end;
+  margin-right: 10px;
 }
 
-.susbcribe-now-button {
+.susbcribe-now-button, .log-in-button {
   background: none;
   background-color: rgb(58, 108, 146);
   border: 0;
@@ -74,21 +82,302 @@
   font-family: 'Franklin', Verdana, Tahoma, sans-serif;
   font-size: 11px;
   font-weight: 700;
+  margin-top: 5px;
   padding: 11px 12px 8px 12px;
   text-transform: uppercase;
 }
 
-.log-in-button {
+.main {
+  padding-top: 40px;
+}
+
+.title {
+  margin: 0 auto 20px;
+  max-width: 42%;
+}
+
+.title-text {
+  font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.social-media-icons {
+  border-top: 1px solid rgb(235, 235, 235);
+  margin: 0 auto 20px;
+  max-width: 48%;
+  padding-top: 20px;
+}
+
+.icon {
   background: none;
-  background-color: rgb(58, 108, 146);
   border: 0;
-  border-radius: 3px;
-  box-shadow: none;
-  color: white;
   cursor: pointer;
+  font-size: 17px;
+  margin-right: 15px;
+}
+
+.facebook-icon,
+.whatsapp-icon,
+.twitter-icon,
+.email-icon,
+.share-icon {
+  background-color: #eee;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  font-weight: 400;
+  padding: 4px;
+  width: 35px;
+}
+
+.facebook-icon:hover,
+.whatsapp-icon:hover,
+.twitter-icon:hover,
+.email-icon:hover,
+.share-icon:hover {
+  background-color: #fff;
+}
+
+.comments-icon:hover,
+.bookmark-icon:hover {
+  color: rgba(102, 102, 102, 0.4);
+}
+
+.main-picture {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  max-width: 75vw;
+}
+
+.main-picture-img {
+  width: 100%;
+}
+
+.main-picture-description {
+  color: #666;
+  font-family: 'Imperial', Verdana, Tahoma, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin-right: 7px;
+}
+
+.main-picture-credits {
+  color: rgb(136, 136, 136);
+  font-family: 'Imperial', Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.article-information {
+  margin: 0 auto 20px;
+  max-width: 42%;
+}
+
+.article-information-author {
   font-family: 'Franklin', Verdana, Tahoma, sans-serif;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 700;
-  padding: 11px 12px 8px 12px;
-  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.article-information-author-link {
+  color: rgb(51, 51, 51);
+  text-decoration: underline;
+  text-decoration-color: rgb(204, 204, 204);
+}
+
+.article-information-date-published {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 0.8125rem;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.sign-up {
+  border-top: 1px solid rgb(226, 226, 226);
+  margin: 0 auto 30px;
+}
+
+.sign-up-content {
+  display: flex;
+  padding-top: 12px;
+}
+
+.sign-up-text {
+  font-family: 'Imperial', Verdana, Tahoma, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  margin-right: 15px;
+}
+
+.sign-up-text-sign-up {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-style: normal;  
+  font-weight: 700;
+}
+
+.sign-up-button {
+  background: none;
+  border: 1px solid black;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 6px 12px 4px;
+  white-space: nowrap;
+  transition: background-color 0.4s ease 0s, color 0.4s ease 0s;
+}
+
+.sign-up-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.story-first-part {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story-first-part-content {
+  margin-left: calc((100% - 600px) / 2);
+  margin-right: 0;
+  width: 600px;
+}
+
+.story-second-part {
+  display: flex;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story-second-part-content {
+  margin-left: calc((100% - 600px) / 2);
+  margin-right: 0;
+  width: 600px;
+}
+
+.story-third-part {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story-third-part-content {
+  margin-left: calc((100% - 600px) / 2);
+  margin-right: 0;
+  width: 600px;
+}
+
+.infography {
+  margin: 0 auto 20px;
+  max-width: 84%; 
+}
+
+.infography-header {
+  margin-bottom: 15px;
+}
+
+.infography-title {
+  color: #000;
+  font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.infography-description {
+  color:rgb(102, 102, 102);
+  font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.infography-content-image {
+  width: 975px;
+  height: 576px;
+}
+
+.story-fourth-part {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story-fourth-part-content {
+  margin-left: calc((100% - 600px) / 2);
+  margin-right: 0;
+  width: 600px;
+}
+
+.image-figure {
+  height: 400px;
+  margin: 1em auto 4em;
+  width: 600px;
+}
+
+.image {
+  width: 100%;
+}
+
+p {
+  color: rgb(51, 51, 51);
+  font-family: 'Imperial', Verdana, Tahoma, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.875rem;
+}
+
+.article-links {
+  text-decoration: underline;
+  color: #326891;
+}
+
+.youtube-video-figure {
+  height: 367px;
+  margin: 37px auto;
+  width: 600px;
+}
+
+.youtube-video-iframe {
+  border: none;
+  height: 90%;
+  width: 100%;
+}
+
+.editors-pick-aside {
+  width: 210px;
+  margin-left: 75px;
+}
+
+.editors-pick-text {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+}
+
+.editors-pick-links {
+  align-items: center;
+  color: #000;
+  display: flex;
+  text-decoration: none;
+}
+
+.editors-pick-description {
+  font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px 0px 5px 10px;
+}
+
+.article-image-container {
+  width: 75px;
+}
+
+.article-image {
+  width: 75px;
 }
