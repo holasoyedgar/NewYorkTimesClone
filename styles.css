@@ -71,7 +71,7 @@
   margin-right: 10px;
 }
 
-.susbcribe-now-button, .log-in-button {
+.susbcribe-now-button, .log-in-button, .read-comments-button {
   background: none;
   background-color: rgb(58, 108, 146);
   border: 0;
@@ -380,4 +380,116 @@ p {
 
 .article-image {
   width: 75px;
+}
+
+.footer-content {
+  margin: 0 auto 10px;
+  max-width: 600px;
+}
+
+.footer-content-information-text {
+  color: #666;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 0.75rem;
+}
+
+.footer-content-links {
+  color: #666;
+}
+
+.footer-content-buttons {
+  align-items: center;
+  display: flex;
+}
+
+.read-comments {
+  display: inline;
+  width: 330px;
+}
+
+.read-comments-button {
+  width: 90%;
+}
+
+.social-media-icons-bottom {
+  margin: 0 auto 20px;
+  max-width: 48%;
+  padding-top: 20px;
+}
+
+.nav-menu-bottom {
+  border-top: 2px double #666;
+  margin: 0 auto 10px;
+  max-width: 1200px;
+  padding-top: 10px;
+}
+
+.nav-menu-bottom-categories {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.category-title {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+.nav-menu-bottom-item {
+  height: 23px;
+}
+
+.nav-menu-bottom-link {
+  color: #000;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.suscribe-category {
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 18px;
+}
+
+.nav-menu-top-subscribe-link {
+  color: #000;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.nav-menu-bottom-subscribe-link {
+  color: #000;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.subscribe-category-bottom-menu-ul {
+  border-top: 1px solid rgb(226, 226, 226);
+  padding-top: 15px;
+}
+
+.footer {
+  border-top: 1px solid #ebebeb;
+  margin: 0 auto 10px;
+  max-width: 1200px;
+}
+
+.nav-menu-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-menu-footer-link {
+  color: #666;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-decoration: none;
 }
