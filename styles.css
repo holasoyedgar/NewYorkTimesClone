@@ -3,13 +3,10 @@
   background-color: #fff;
   border-bottom: 1px solid rgb(226, 226, 226);
   display: flex;
-  left: 10px;
   padding-bottom: 4px;
   position: fixed;
-  right: 10px;
   top: 0;
   width: 98vw;
-  z-index: 100;
 }
 
 .buttons-left {
@@ -89,7 +86,7 @@
   text-transform: uppercase;
 }
 
-.main {
+#main {
   padding-top: 40px;
 }
 
@@ -275,8 +272,8 @@ ul {
 }
 
 .infography {
-  margin: 0 auto 20px;
-  max-width: 84%;
+  margin: 0 auto 40px;
+  max-width: 74%;
 }
 
 .infography-header {
@@ -287,7 +284,7 @@ ul {
   color: #000;
   font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .infography-description {
@@ -297,9 +294,33 @@ ul {
   font-weight: 400;
 }
 
-.infography-content-image {
-  width: 975px;
+.infography-content-wrapper {
+  background: url('assets/inflation-945.png');
+  background-size: cover;
   height: 576px;
+  width: 975px;
+}
+
+.infography-content-top-paragraphs,
+.infography-content-bottom-paragraphs {
+  display: flex;
+  padding-top: 132px;
+}
+
+.infography-content-paragraph {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.1rem;
+  margin: 15px;
+  width: 228px;
+}
+
+.infography-content-title {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin-right: 5px;
 }
 
 .story-fourth-part {
@@ -410,6 +431,7 @@ p {
 }
 
 .read-comments-button {
+  letter-spacing: 0.5px;
   width: 90%;
 }
 
@@ -417,6 +439,199 @@ p {
   margin: 0 auto 20px;
   max-width: 48%;
   padding-top: 20px;
+}
+
+#suggestions {
+  display: flex;
+  margin: 0 auto 50px;
+  max-width: 90%;
+}
+
+.suggestions-left {
+  border-top: 1px solid #000;
+  margin-right: 30px;
+  padding-top: 12px;
+  width: 100%;
+}
+
+.suggested-newsletters {
+  margin-bottom: 15px;
+}
+
+.suggested-newsletters-items {
+  display: flex;
+}
+
+.suggested-newsletters-item {
+  border: 1px solid rgb(226, 226, 226);
+  margin-right: 16px;
+  width: 33%;
+  padding: 10px;
+}
+
+.suggested-newsletters-item-image {
+  height: 82px;
+  width: 82px;
+}
+
+.button-add {
+  background: none;
+  border: 0;
+  box-shadow: none;
+  font-size: 30px;
+  top: 0;
+  right: 0;
+  float: right;
+}
+
+.suggested-newsletter-category {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 100;
+  line-height: 5px;
+  text-transform: uppercase;
+}
+
+.suggested-newsletter-title {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.suggested-newsletter-description {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+
+.suggested-newsletters-item-see-the-latest-link {
+  bottom: 0;
+  color: rgb(50, 104, 145);
+  float: left;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  left: 0;
+  text-decoration: none;
+}
+
+.suggested-newsletters-item-see-the-latest-link:hover {
+  text-decoration: underline;
+}
+
+.suggested-category {
+  border-top: 1px solid #000;
+}
+
+.suggested-category-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggested-category-item {
+  width: 29%;
+}
+
+.suggested-category-item-image {
+  height: 153px;
+  width: 100%;
+}
+
+.suggested-category-item-description {
+  color: rgb(153, 153, 153);
+  font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
+  font-size: 11px;
+  float: right;
+}
+
+.suggested-category-item-title {
+  font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.suggested-category-item-date {
+  color: #999;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.suggestions-right {
+  border-top: 1px solid #000;
+  padding-top: 12px;
+  max-width: 25%;
+}
+
+.suggestions-title {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.suggestions-most-popular-text {
+  border-top: 1px solid rgb(206, 206, 206);
+  border-bottom: 1px solid rgb(206, 206, 206);
+  margin-block: 0;
+  padding: 15px 0;
+}
+
+.suggestions-most-popular-link {
+  color: #000;
+  font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  height: 50px;
+  margin-bottom: auto;
+  margin-top: auto;
+  text-decoration: none;
+}
+
+.sticky-bottom-section {
+  align-items: center;
+  background-color: #fff;
+  border-top: 1px solid #000;
+  bottom: 0;
+  display: flex;
+  height: 55px;
+  position: fixed;
+  width: 98vw;
+}
+
+.sticky-bottom-section-subscribe {
+  display: flex;
+  width: 100%;
+}
+
+.subscribe-text {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ends-soon-text {
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.sticky-bottom-section-expand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.expand-text {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+.expand-icon {
+  font-weight: bold;
 }
 
 .nav-menu-bottom {
@@ -478,7 +693,7 @@ p {
 
 .footer {
   border-top: 1px solid #ebebeb;
-  margin: 0 auto 10px;
+  margin: 0 auto 76px;
   max-width: 1200px;
 }
 
