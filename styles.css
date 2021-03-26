@@ -1,8 +1,12 @@
-.header {
+.nav-menu {
   align-items: center;
+  background-color: #fff;
   border-bottom: 1px solid rgb(226, 226, 226);
   display: flex;
   padding-bottom: 4px;
+  position: fixed;
+  top: 0;
+  width: 98vw;
 }
 
 .buttons-left {
@@ -50,7 +54,7 @@
 }
 
 .nyt-logo {
-  margin-left: 29vw;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -61,9 +65,12 @@
 
 .buttons-right {
   justify-content: flex-end;
+  margin-right: 10px;
 }
 
-.susbcribe-now-button {
+.susbcribe-now-button,
+.log-in-button,
+.read-comments-button {
   background: none;
   background-color: rgb(58, 108, 146);
   border: 0;
@@ -74,21 +81,632 @@
   font-family: 'Franklin', Verdana, Tahoma, sans-serif;
   font-size: 11px;
   font-weight: 700;
+  margin-top: 5px;
   padding: 11px 12px 8px 12px;
   text-transform: uppercase;
 }
 
-.log-in-button {
+#main {
+  padding-top: 40px;
+}
+
+.title {
+  margin: 0 auto 20px;
+  max-width: 42%;
+}
+
+.title-text {
+  font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.social-media-icons {
+  border-top: 1px solid rgb(235, 235, 235);
+  margin: 0 auto 20px;
+  max-width: 48%;
+  padding-top: 20px;
+}
+
+.icon {
   background: none;
-  background-color: rgb(58, 108, 146);
   border: 0;
-  border-radius: 3px;
-  box-shadow: none;
-  color: white;
   cursor: pointer;
+  font-size: 17px;
+  margin-right: 15px;
+}
+
+.facebook-icon,
+.whatsapp-icon,
+.twitter-icon,
+.email-icon,
+.share-icon {
+  background-color: #eee;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  font-weight: 400;
+  padding: 4px;
+  width: 35px;
+}
+
+.facebook-icon:hover,
+.whatsapp-icon:hover,
+.twitter-icon:hover,
+.email-icon:hover,
+.share-icon:hover {
+  background-color: #fff;
+}
+
+.comments-icon:hover,
+.bookmark-icon:hover {
+  color: rgba(102, 102, 102, 0.4);
+}
+
+.main-picture {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  max-width: 75vw;
+}
+
+.main-picture-img {
+  width: 100%;
+}
+
+.main-picture-description {
+  color: #666;
+  font-family: 'Imperial', Verdana, Tahoma, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin-right: 7px;
+}
+
+.main-picture-credits {
+  color: rgb(136, 136, 136);
+  font-family: 'Imperial', Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.article-information {
+  margin: 0 auto 20px;
+  max-width: 42%;
+}
+
+.article-information-author {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.article-information-author-link {
+  color: rgb(51, 51, 51);
+  text-decoration: underline;
+  text-decoration-color: rgb(204, 204, 204);
+}
+
+.article-information-date-published {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 0.8125rem;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.sign-up {
+  border-top: 1px solid rgb(226, 226, 226);
+  margin: 0 auto 30px;
+}
+
+.sign-up-content {
+  display: flex;
+  padding-top: 12px;
+}
+
+.sign-up-text {
+  font-family: 'Imperial', Verdana, Tahoma, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  margin-right: 15px;
+}
+
+.sign-up-text-sign-up {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sign-up-button {
+  background: none;
+  border: 1px solid black;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 6px 12px 4px;
+  white-space: nowrap;
+  transition: background-color 0.4s ease 0s, color 0.4s ease 0s;
+}
+
+.sign-up-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.story-first-part {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story-first-part-content {
+  margin-left: calc((100% - 600px) / 2);
+  margin-right: 0;
+  width: 600px;
+}
+
+.story-second-part {
+  display: flex;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story-second-part-content {
+  margin-left: calc((100% - 600px) / 2);
+  margin-right: 0;
+  width: 600px;
+}
+
+.story-third-part {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story-third-part-content {
+  margin-left: calc((100% - 600px) / 2);
+  margin-right: 0;
+  width: 600px;
+}
+
+.infography {
+  margin: 0 auto 40px;
+  max-width: 74%;
+}
+
+.infography-header {
+  margin-bottom: 15px;
+}
+
+.infography-title {
+  color: #000;
+  font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.infography-description {
+  color: rgb(102, 102, 102);
+  font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.infography-content-wrapper {
+  background: url('assets/inflation-945.png');
+  background-size: cover;
+  height: 576px;
+  width: 975px;
+}
+
+.infography-content-top-paragraphs,
+.infography-content-bottom-paragraphs {
+  display: flex;
+  padding-top: 132px;
+}
+
+.infography-content-paragraph {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.1rem;
+  margin: 15px;
+  width: 228px;
+}
+
+.infography-content-title {
   font-family: 'Franklin', Verdana, Tahoma, sans-serif;
   font-size: 11px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.story-fourth-part {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story-fourth-part-content {
+  margin-left: calc((100% - 600px) / 2);
+  margin-right: 0;
+  width: 600px;
+}
+
+.image-figure {
+  height: 400px;
+  margin: 1em auto 4em;
+  width: 600px;
+}
+
+.image {
+  width: 100%;
+}
+
+p {
+  color: rgb(51, 51, 51);
+  font-family: 'Imperial', Verdana, Tahoma, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.875rem;
+}
+
+.article-links {
+  text-decoration: underline;
+  color: #326891;
+}
+
+.youtube-video-figure {
+  height: 367px;
+  margin: 37px auto;
+  width: 600px;
+}
+
+.youtube-video-iframe {
+  border: none;
+  height: 90%;
+  width: 100%;
+}
+
+.editors-pick-aside {
+  width: 210px;
+  margin-left: 75px;
+}
+
+.editors-pick-text {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 14px;
   font-weight: 700;
-  padding: 11px 12px 8px 12px;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+}
+
+.editors-pick-links {
+  align-items: center;
+  color: #000;
+  display: flex;
+  text-decoration: none;
+}
+
+.editors-pick-description {
+  font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px 0 5px 10px;
+}
+
+.article-image-container {
+  width: 75px;
+}
+
+.article-image {
+  width: 75px;
+}
+
+.footer-content {
+  margin: 0 auto 10px;
+  max-width: 600px;
+}
+
+.footer-content-information-text {
+  color: #666;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 0.75rem;
+}
+
+.footer-content-links {
+  color: #666;
+}
+
+.footer-content-buttons {
+  align-items: center;
+  display: flex;
+}
+
+.read-comments {
+  display: inline;
+  width: 330px;
+}
+
+.read-comments-button {
+  letter-spacing: 0.5px;
+  width: 90%;
+}
+
+.social-media-icons-bottom {
+  margin: 0 auto 20px;
+  max-width: 48%;
+  padding-top: 20px;
+}
+
+#suggestions {
+  display: flex;
+  margin: 0 auto 50px;
+  max-width: 90%;
+}
+
+.suggestions-left {
+  border-top: 1px solid #000;
+  margin-right: 30px;
+  padding-top: 12px;
+  width: 100%;
+}
+
+.suggested-newsletters {
+  margin-bottom: 15px;
+}
+
+.suggested-newsletters-items {
+  display: flex;
+}
+
+.suggested-newsletters-item {
+  border: 1px solid rgb(226, 226, 226);
+  margin-right: 16px;
+  width: 33%;
+  padding: 10px;
+}
+
+.suggested-newsletters-item-image {
+  height: 82px;
+  width: 82px;
+}
+
+.button-add {
+  background: none;
+  border: 0;
+  box-shadow: none;
+  font-size: 30px;
+  top: 0;
+  right: 0;
+  float: right;
+}
+
+.suggested-newsletter-category {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 100;
+  line-height: 5px;
   text-transform: uppercase;
+}
+
+.suggested-newsletter-title {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.suggested-newsletter-description {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+
+.suggested-newsletters-item-see-the-latest-link {
+  bottom: 0;
+  color: rgb(50, 104, 145);
+  float: left;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  left: 0;
+  text-decoration: none;
+}
+
+.suggested-newsletters-item-see-the-latest-link:hover {
+  text-decoration: underline;
+}
+
+.suggested-category {
+  border-top: 1px solid #000;
+}
+
+.suggested-category-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggested-category-item {
+  width: 29%;
+}
+
+.suggested-category-item-image {
+  height: 153px;
+  width: 100%;
+}
+
+.suggested-category-item-description {
+  color: rgb(153, 153, 153);
+  font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
+  font-size: 11px;
+  float: right;
+}
+
+.suggested-category-item-title {
+  font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.suggested-category-item-date {
+  color: #999;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.suggestions-right {
+  border-top: 1px solid #000;
+  padding-top: 12px;
+  max-width: 25%;
+}
+
+.suggestions-title {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.suggestions-most-popular-text {
+  border-top: 1px solid rgb(206, 206, 206);
+  border-bottom: 1px solid rgb(206, 206, 206);
+  margin-block: 0;
+  padding: 15px 0;
+}
+
+.suggestions-most-popular-link {
+  color: #000;
+  font-family: 'Cheltenham', Verdana, Tahoma, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  height: 50px;
+  margin-bottom: auto;
+  margin-top: auto;
+  text-decoration: none;
+}
+
+.sticky-bottom-section {
+  align-items: center;
+  background-color: #fff;
+  border-top: 1px solid #000;
+  bottom: 0;
+  display: flex;
+  height: 55px;
+  position: fixed;
+  width: 98vw;
+}
+
+.sticky-bottom-section-subscribe {
+  display: flex;
+  width: 100%;
+}
+
+.subscribe-text {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ends-soon-text {
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.sticky-bottom-section-expand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.expand-text {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+.expand-icon {
+  font-weight: bold;
+}
+
+.nav-menu-bottom {
+  border-top: 2px double #666;
+  margin: 0 auto 10px;
+  max-width: 1200px;
+  padding-top: 10px;
+}
+
+.nav-menu-bottom-categories {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.category-title {
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 11px;
+}
+
+.nav-menu-bottom-item {
+  height: 23px;
+}
+
+.nav-menu-bottom-link {
+  color: #000;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.suscribe-category {
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 18px;
+}
+
+.nav-menu-top-subscribe-link {
+  color: #000;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.nav-menu-bottom-subscribe-link {
+  color: #000;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.subscribe-category-bottom-menu-ul {
+  border-top: 1px solid rgb(226, 226, 226);
+  padding-top: 15px;
+}
+
+.footer {
+  border-top: 1px solid #ebebeb;
+  margin: 0 auto 76px;
+  max-width: 1200px;
+}
+
+.nav-menu-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-menu-footer-link {
+  color: #666;
+  font-family: 'Franklin', Verdana, Tahoma, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-decoration: none;
 }
